@@ -1,0 +1,6 @@
+CFNetwork
+MobileCoreServices
+Security
+SystemConfiguration
+libxml2
+libz

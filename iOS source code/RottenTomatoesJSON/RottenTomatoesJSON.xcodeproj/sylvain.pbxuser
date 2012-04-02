@@ -1,0 +1,189 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* RottenTomatoesJSONAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1027}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2222}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* RottenTomatoesJSON */ = {
+		activeExec = 0;
+		executables = (
+			E44BA58A13C407B500954D94 /* RottenTomatoesJSON */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* RottenTomatoesJSONViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {955, 812}}";
+			sepNavSelRange = "{365, 0}";
+			sepNavVisRange = "{0, 626}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* RottenTomatoesJSONViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 2717}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 1840}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E44BA58A13C407B500954D94 /* RottenTomatoesJSON */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RottenTomatoesJSON */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RottenTomatoesJSON */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = E44BA59613C407C400954D94 /* Code sense */;
+		executables = (
+			E44BA58A13C407B500954D94 /* RottenTomatoesJSON */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					777,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 334272619;
+			PBXWorkspaceStateSaveDate = 334272619;
+		};
+		perUserProjectItems = {
+			E425F1FA13C4FF7B006C87AC /* PBXTextBookmark */ = E425F1FA13C4FF7B006C87AC /* PBXTextBookmark */;
+			E44BA5EE13C4108900954D94 /* PBXTextBookmark */ = E44BA5EE13C4108900954D94 /* PBXTextBookmark */;
+			E47F33B113E9B14B008EF4CE /* PBXTextBookmark */ = E47F33B113E9B14B008EF4CE /* PBXTextBookmark */;
+			E47F33B313E9B14B008EF4CE /* PBXTextBookmark */ = E47F33B313E9B14B008EF4CE /* PBXTextBookmark */;
+			E47F357C13EC9914008EF4CE /* PBXTextBookmark */ = E47F357C13EC9914008EF4CE /* PBXTextBookmark */;
+		};
+		sourceControlManager = E44BA59513C407C400954D94 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* RottenTomatoesJSON-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 74}, {1127, 979}}";
+		};
+	};
+	E425F1FA13C4FF7B006C87AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E44BA59D13C4089100954D94 /* JSONKit.h */;
+		name = "JSONKit.h: 14";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 4129;
+		vrLoc = 4912;
+	};
+	E44BA58A13C407B500954D94 /* RottenTomatoesJSON */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RottenTomatoesJSON;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	E44BA59513C407C400954D94 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E44BA59613C407C400954D94 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E44BA59D13C4089100954D94 /* JSONKit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1437, 2743}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{4912, 4129}";
+		};
+	};
+	E44BA5EE13C4108900954D94 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RottenTomatoesJSONAppDelegate.m */;
+		name = "RottenTomatoesJSONAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2222;
+		vrLoc = 0;
+	};
+	E47F33B113E9B14B008EF4CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RottenTomatoesJSONViewController.h */;
+		name = "RottenTomatoesJSONViewController.h: 16";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 0;
+	};
+	E47F33B313E9B14B008EF4CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RottenTomatoesJSONViewController.m */;
+		name = "RottenTomatoesJSONViewController.m: 14";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 0;
+	};
+	E47F357C13EC9914008EF4CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RottenTomatoesJSONViewController.m */;
+		name = "RottenTomatoesJSONViewController.m: 14";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 0;
+	};
+}

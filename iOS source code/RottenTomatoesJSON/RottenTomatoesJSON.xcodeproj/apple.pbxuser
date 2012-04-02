@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	183701D613C4BBA8007CAFB5 /* RottenTomatoesJSON */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RottenTomatoesJSON;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	183701E613C4BBB8007CAFB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	183701E713C4BBB8007CAFB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	183701F513C4D08C007CAFB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RottenTomatoesJSONViewController.h */;
+		name = "RottenTomatoesJSONViewController.h: 6";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	183701F613C4D08C007CAFB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RottenTomatoesJSONViewController.m */;
+		name = "RottenTomatoesJSONViewController.m: 54";
+		rLen = 0;
+		rLoc = 1617;
+		rType = 0;
+		vrLen = 1276;
+		vrLoc = 1071;
+	};
+	183701F713C4D08C007CAFB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RottenTomatoesJSONViewController.m */;
+		name = "RottenTomatoesJSONViewController.m: 61";
+		rLen = 0;
+		rLoc = 1616;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 1076;
+	};
+	1D6058900D05DD3D006BFB54 /* RottenTomatoesJSON */ = {
+		activeExec = 0;
+		executables = (
+			183701D613C4BBA8007CAFB5 /* RottenTomatoesJSON */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* RottenTomatoesJSONViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 681}}";
+			sepNavSelRange = "{136, 0}";
+			sepNavVisRange = "{0, 453}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* RottenTomatoesJSONViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 2256}}";
+			sepNavSelRange = "{1616, 0}";
+			sepNavVisRange = "{1076, 1290}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 183701D613C4BBA8007CAFB5 /* RottenTomatoesJSON */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RottenTomatoesJSON */;
+		codeSenseManager = 183701E713C4BBB8007CAFB5 /* Code sense */;
+		executables = (
+			183701D613C4BBA8007CAFB5 /* RottenTomatoesJSON */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					897,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 331660200;
+			PBXWorkspaceStateSaveDate = 331660200;
+		};
+		perUserProjectItems = {
+			183701F513C4D08C007CAFB5 /* PBXTextBookmark */ = 183701F513C4D08C007CAFB5 /* PBXTextBookmark */;
+			183701F613C4D08C007CAFB5 /* PBXTextBookmark */ = 183701F613C4D08C007CAFB5 /* PBXTextBookmark */;
+			183701F713C4D08C007CAFB5 /* PBXTextBookmark */ = 183701F713C4D08C007CAFB5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 183701E613C4BBB8007CAFB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

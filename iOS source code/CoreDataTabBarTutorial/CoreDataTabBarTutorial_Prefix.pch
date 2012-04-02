@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'CoreDataTabBarTutorial' target in the 'CoreDataTabBarTutorial' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <CoreData/CoreData.h>
+#endif

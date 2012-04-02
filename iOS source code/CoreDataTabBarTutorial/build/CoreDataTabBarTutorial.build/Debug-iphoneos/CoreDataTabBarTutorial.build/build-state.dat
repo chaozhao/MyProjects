@@ -1,0 +1,610 @@
+TCoreDataTabBarTutorial
+v7
+r0
+t331572708.413906
+cCheck dependencies
+cCpResource build/Debug-iphoneos/CoreDataTabBarTutorial.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/Info.plist CoreDataTabBarTutorial-Info.plist
+cCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/MainWindow.xib
+cCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/EnterDataView.xib
+cCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/ShowDestinationsView.xib
+cCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/SearchDestinationsView.xib
+cProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch.gch CoreDataTabBarTutorial_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch.gch CoreDataTabBarTutorial_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/main.o /Users/franke/Desktop/CoreDataTabBarTutorial/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorialAppDelegate.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/EnterDataViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/ShowDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/SearchDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/main.o /Users/franke/Desktop/CoreDataTabBarTutorial/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorialAppDelegate.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial normal armv6
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/EnterDataViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/ShowDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/SearchDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial normal armv7
+cCreateUniversalBinary /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial normal "armv6 armv7"
+cGenerateDSYMFile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app.dSYM /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial
+cProcessProductPackaging "/Users/franke/Library/MobileDevice/Provisioning Profiles/63627F24-6CF1-4CB9-A4CC-119695C7E2D1.mobileprovision" /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision
+cTouch /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent
+cCodeSign /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.h
+c000000004E1323490000000000000204
+t1309877065
+s516
+i<UIKit/UIKit.h>
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m
+c000000004E1323490000000000000C79
+t1309877065
+s3193
+i"CoreDataTabBarTutorialAppDelegate.h"
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.h
+c000000004E132A040000000000000269
+t1309878788
+s617
+i<UIKit/UIKit.h>
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m
+c000000004E132A400000000000000539
+t1309878848
+s1337
+i"EnterDataViewController.h"
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/FirstViewController.h
+c000000004E13234900000000000000F7
+t1309877065
+s247
+i<UIKit/UIKit.h>
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/FirstViewController.m
+c000000004E13234900000000000005C0
+t1309877065
+s1472
+i"FirstViewController.h"
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.h
+c000000004E132AAB0000000000000186
+t1309878955
+s390
+i<UIKit/UIKit.h>
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m
+c000000004E132ADB00000000000004FE
+t1309879003
+s1278
+i"SearchDestinationsViewController.h"
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.h
+c000000004E132A510000000000000185
+t1309878865
+s389
+i<UIKit/UIKit.h>
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m
+c000000004E132A9C00000000000006ED
+t1309878940
+s1773
+i"ShowDestinationsViewController.h"
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/CoreDataTabBarTutorial_Prefix.pch
+c000000004E13234900000000000000D5
+t1309877065
+s213
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/EnterDataView.xib
+c000000004E132B810000000000007BF8
+t1309879169
+s31736
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/FirstView.xib
+c000000004E13234900000000000049E0
+t1309877065
+s18912
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/MainWindow.xib
+c000000004E132E5600000000000080FA
+t1309879894
+s33018
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/SearchDestinationsView.xib
+c000000004E132BC60000000000004307
+t1309879238
+s17159
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/SecondView.xib
+c000000004E13234900000000000049DE
+t1309877065
+s18910
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/ShowDestinationsView.xib
+c000000004E132BA700000000000049AB
+t1309879207
+s18859
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent
+t1309879908
+s450
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial
+t1309879908
+s28888
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial.LinkFileList
+c000000004E132E61000000000000035E
+t1309879905
+s862
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorialAppDelegate.o
+t1309879907
+s54572
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/EnterDataViewController.o
+t1309879907
+s43656
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/FirstViewController.o
+t2
+s0
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/SearchDestinationsViewController.o
+t1309879907
+s41972
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/ShowDestinationsViewController.o
+t1309879907
+s43152
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/main.o
+t1309879907
+s6460
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial
+t1309879908
+s28888
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial.LinkFileList
+c000000004E132E61000000000000035E
+t1309879905
+s862
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorialAppDelegate.o
+t1309879907
+s54492
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/EnterDataViewController.o
+t1309879907
+s43528
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/FirstViewController.o
+t2
+s0
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/SearchDestinationsViewController.o
+t1309879907
+s41888
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/ShowDestinationsViewController.o
+t1309879907
+s43056
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/main.o
+t1309879907
+s6444
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+t1309879908
+s442
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app.dSYM
+t1309879908
+s102
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial
+t1309879908
+s65752
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/EnterDataView.nib
+t1309879906
+s2828
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/FirstView.nib
+t2
+s0
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/Info.plist
+t1309879905
+s847
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/MainWindow.nib
+t1309879906
+s1943
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/PkgInfo
+t1309879905
+s8
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/ResourceRules.plist
+t1309879905
+s485
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/SearchDestinationsView.nib
+t1309879906
+s989
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/SecondView.nib
+t2
+s0
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/ShowDestinationsView.nib
+t1309879906
+s1162
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision
+t1309879908
+s9495
+
+N/Users/franke/Desktop/CoreDataTabBarTutorial/main.m
+c000000004E1323490000000000000172
+t1309877065
+s370
+i<UIKit/UIKit.h>
+
+N/Users/franke/Library/MobileDevice/Provisioning Profiles/63627F24-6CF1-4CB9-A4CC-119695C7E2D1.mobileprovision
+c000000004DB97E3E0000000000002517
+t1304002110
+s9495
+
+N/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch.gch
+t1309879907
+s10446552
+
+N/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch.gch
+t1309879907
+s9983704
+
+NCoreDataTabBarTutorial-Info.plist
+c000000004E132349000000000000038D
+t1309877065
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331572705#331572705#0(0"0(0#1#0"8624254304#0"0#
+
+CCodeSign /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+s331572708.172820
+e331572708.413879
+r1
+xCodeSign
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+lSLF07#2@56"CodeSign build/Debug-iphoneos/CoreDataTabBarTutorial.app331572708#331572708#0(0"0(0#0#92"/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app8625466304#746"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kent Franks (6J93WRG8DN)" --resource-rules=/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/ResourceRules.plist --entitlements /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorialAppDelegate.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s331572707.557377
+e331572707.651441
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorialAppDelegate.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m331572707#331572707#0(0"0(0#0#88"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m8617942976#2156"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv6 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorialAppDelegate.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/EnterDataViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s331572707.637931
+e331572707.698341
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/EnterDataViewController.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m331572707#331572707#0(0"0(0#0#78"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m8617381952#2136"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv6 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/EnterDataViewController.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/FirstViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/SearchDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s331572707.698410
+e331572707.760209
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/SearchDestinationsViewController.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m331572707#331572707#0(0"0(0#0#87"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m8624616128#2154"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv6 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/SearchDestinationsViewController.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/ShowDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s331572707.651520
+e331572707.705866
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/ShowDestinationsViewController.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m331572707#331572707#0(0"0(0#0#85"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m8626382240#2150"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv6 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/ShowDestinationsViewController.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/main.o /Users/franke/Desktop/CoreDataTabBarTutorial/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s331572707.556430
+e331572707.637858
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/main.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/main.m331572707#331572707#0(0"0(0#0#51"/Users/franke/Desktop/CoreDataTabBarTutorial/main.m8626607456#2090"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv6 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/main.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorialAppDelegate.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s331572707.749346
+e331572707.801048
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorialAppDelegate.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m331572707#331572707#0(0"0(0#0#88"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m8622762560#2156"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv7 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/CoreDataTabBarTutorialAppDelegate.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorialAppDelegate.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/EnterDataViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s331572707.801129
+e331572707.850907
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/EnterDataViewController.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m331572707#331572707#0(0"0(0#0#78"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m8626032544#2136"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv7 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/EnterDataViewController.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/EnterDataViewController.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/FirstViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/SearchDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s331572707.904367
+e331572708.027622
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/SearchDestinationsViewController.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m331572707#331572708#0(0"0(0#0#87"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m8626682304#2154"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv7 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/SearchDestinationsViewController.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/SearchDestinationsViewController.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/ShowDestinationsViewController.o /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s331572707.850985
+e331572707.904290
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/ShowDestinationsViewController.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m331572707#331572707#0(0"0(0#0#85"/Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m8625253024#2150"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv7 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/Classes/ShowDestinationsViewController.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/ShowDestinationsViewController.o0#
+
+CCompileC build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/main.o /Users/franke/Desktop/CoreDataTabBarTutorial/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s331572707.705944
+e331572707.749273
+r1
+xCompileC
+xbuild/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/main.o
+x/Users/franke/Desktop/CoreDataTabBarTutorial/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/franke/Desktop/CoreDataTabBarTutorial/main.m331572707#331572707#0(0"0(0#0#51"/Users/franke/Desktop/CoreDataTabBarTutorial/main.m8623956160#2090"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv7 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch -c /Users/franke/Desktop/CoreDataTabBarTutorial/main.m -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/EnterDataView.xib
+s331572705.929205
+e331572706.367881
+r1
+xCompileXIB
+x/Users/franke/Desktop/CoreDataTabBarTutorial/EnterDataView.xib
+lSLF07#2@28"CompileXIB EnterDataView.xib331572705#331572706#0(0"0(0#0#62"/Users/franke/Desktop/CoreDataTabBarTutorial/EnterDataView.xib8626891072#581"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/EnterDataView.nib /Users/franke/Desktop/CoreDataTabBarTutorial/EnterDataView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/FirstView.xib
+r0
+
+CCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/MainWindow.xib
+s331572705.928712
+e331572706.310339
+r1
+xCompileXIB
+x/Users/franke/Desktop/CoreDataTabBarTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib331572705#331572706#0(0"0(0#0#59"/Users/franke/Desktop/CoreDataTabBarTutorial/MainWindow.xib31244220638101620#575"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/MainWindow.nib /Users/franke/Desktop/CoreDataTabBarTutorial/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/SearchDestinationsView.xib
+s331572706.367945
+e331572706.715342
+r1
+xCompileXIB
+x/Users/franke/Desktop/CoreDataTabBarTutorial/SearchDestinationsView.xib
+lSLF07#2@37"CompileXIB SearchDestinationsView.xib331572706#331572706#0(0"0(0#0#71"/Users/franke/Desktop/CoreDataTabBarTutorial/SearchDestinationsView.xib8623292864#599"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/SearchDestinationsView.nib /Users/franke/Desktop/CoreDataTabBarTutorial/SearchDestinationsView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/SecondView.xib
+r0
+
+CCompileXIB /Users/franke/Desktop/CoreDataTabBarTutorial/ShowDestinationsView.xib
+s331572706.310402
+e331572706.646831
+r1
+xCompileXIB
+x/Users/franke/Desktop/CoreDataTabBarTutorial/ShowDestinationsView.xib
+lSLF07#2@35"CompileXIB ShowDestinationsView.xib331572706#331572706#0(0"0(0#0#69"/Users/franke/Desktop/CoreDataTabBarTutorial/ShowDestinationsView.xib8623676096#595"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/ShowDestinationsView.nib /Users/franke/Desktop/CoreDataTabBarTutorial/ShowDestinationsView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/CoreDataTabBarTutorial.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s331572705.901175
+e331572705.928361
+r1
+xCpResource
+xbuild/Debug-iphoneos/CoreDataTabBarTutorial.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist331572705#331572705#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8627594848#521"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app0#
+
+CCreateUniversalBinary /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial normal "armv6 armv7"
+s331572708.120414
+e331572708.135643
+r1
+xCreateUniversalBinary
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial
+xnormal
+xarmv6 armv7
+lSLF07#2@113"CreateUniversalBinary build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial normal "armv6 armv7"331572708#331572708#0(0"0(0#0#56"/Users/franke/Desktop/CoreDataTabBarTutorial/armv6 armv78623821184#662"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial -output /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial0#
+
+CGenerateDSYMFile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app.dSYM /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial
+s331572708.135694
+e331572708.165440
+r1
+xGenerateDSYMFile
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app.dSYM
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial
+lSLF07#2@140"GenerateDSYMFile build/Debug-iphoneos/CoreDataTabBarTutorial.app.dSYM build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial331572708#331572708#0(0"0(0#0#115"/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial8623391488#425"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/CoreDataTabBarTutorial -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app.dSYM0#
+
+CLd /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial normal armv6
+s331572707.760281
+e331572708.066184
+r1
+xLd
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial
+xnormal
+xarmv6
+lSLF07#2@172"Link /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial331572707#331572708#0(0"0(0#0#0"8626226368#979"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -filelist /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv6/CoreDataTabBarTutorial0#
+
+CLd /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial normal armv7
+s331572708.027716
+e331572708.120334
+r1
+xLd
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial
+xnormal
+xarmv7
+lSLF07#2@172"Link /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial331572708#331572708#0(0"0(0#0#0"8625896992#979"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -filelist /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/Objects-normal/armv7/CoreDataTabBarTutorial0#
+
+CProcessInfoPlistFile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/Info.plist CoreDataTabBarTutorial-Info.plist
+s331572705.918077
+e331572705.928661
+r1
+xProcessInfoPlistFile
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/Info.plist
+xCoreDataTabBarTutorial-Info.plist
+lSLF07#2@41"Process CoreDataTabBarTutorial-Info.plist331572705#331572705#0(0"0(0#0#78"/Users/franke/Desktop/CoreDataTabBarTutorial/CoreDataTabBarTutorial-Info.plist8626713536#646"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CoreDataTabBarTutorial-Info.plist -genpkginfo /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/ResourceRules.plist -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/Info.plist0#
+
+CProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch.gch CoreDataTabBarTutorial_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s331572706.716182
+e331572707.556345
+r1
+xProcessPCH
+x/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch.gch
+xCoreDataTabBarTutorial_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Precompile CoreDataTabBarTutorial_Prefix.pch331572706#331572707#0(0"0(0#0#78"/Users/franke/Desktop/CoreDataTabBarTutorial/CoreDataTabBarTutorial_Prefix.pch8626284640#1967"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv7 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -c /Users/franke/Desktop/CoreDataTabBarTutorial/CoreDataTabBarTutorial_Prefix.pch -o /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-gakhyeweoeyapqekuluaqiomscgd/CoreDataTabBarTutorial_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch.gch CoreDataTabBarTutorial_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s331572706.715443
+e331572707.552911
+r1
+xProcessPCH
+x/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch.gch
+xCoreDataTabBarTutorial_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Precompile CoreDataTabBarTutorial_Prefix.pch331572706#331572707#0(0"0(0#0#78"/Users/franke/Desktop/CoreDataTabBarTutorial/CoreDataTabBarTutorial_Prefix.pch8626464960#1967"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-generated-files.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-own-target-headers.hmap -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-all-target-headers.hmap -iquote /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial-project-headers.hmap -F/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/include -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources/armv6 -I/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/DerivedSources -c /Users/franke/Desktop/CoreDataTabBarTutorial/CoreDataTabBarTutorial_Prefix.pch -o /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataTabBarTutorial_Prefix-grjaytlebackmcgecoytznlzddps/CoreDataTabBarTutorial_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/franke/Library/MobileDevice/Provisioning Profiles/63627F24-6CF1-4CB9-A4CC-119695C7E2D1.mobileprovision" /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision
+s331572708.165513
+e331572708.166538
+r1
+xProcessProductPackaging
+x/Users/franke/Library/MobileDevice/Provisioning Profiles/63627F24-6CF1-4CB9-A4CC-119695C7E2D1.mobileprovision
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision
+lSLF07#2@208"ProcessProductPackaging "/Users/franke/Library/MobileDevice/Provisioning Profiles/63627F24-6CF1-4CB9-A4CC-119695C7E2D1.mobileprovision" build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision331572708#331572708#0(0"0(0#0#117"/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision8626239104#451"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/franke/Library/MobileDevice/Provisioning Profiles/63627F24-6CF1-4CB9-A4CC-119695C7E2D1.mobileprovision" -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent
+s331572708.168663
+e331572708.172760
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent
+lSLF07#2@220"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent331572708#331572708#0(0"0(0#0#152"/Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent8625736320#489"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/franke/Desktop/CoreDataTabBarTutorial/build/CoreDataTabBarTutorial.build/Debug-iphoneos/CoreDataTabBarTutorial.build/CoreDataTabBarTutorial.xcent0#
+
+CTouch /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+s331572708.166574
+e331572708.168614
+r1
+xTouch
+x/Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app
+lSLF07#2@98"Touch /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app331572708#331572708#0(0"0(0#0#0"8626006496#291"    cd /Users/franke/Desktop/CoreDataTabBarTutorial    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/franke/Desktop/CoreDataTabBarTutorial/build/Debug-iphoneos/CoreDataTabBarTutorial.app0#
+
